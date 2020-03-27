@@ -12,11 +12,11 @@ console.log("My todos:", todos);
 todos.push("new todo"); 
 
 
-/*  to change first todo*/
+/*  to change first 'todo' */
 
 todos[0] = 'Changed'; 
 
 
-/* to delete a todo*/
+/* to delete a 'todo' */
 
 todos.splice(0, 1); 

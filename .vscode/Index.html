@@ -4,9 +4,22 @@
     <title>Practical JavaScript</title>
 
 </head>
+</head>
 <body>
-    
+    <h1>Todos</h1>
+    <div>
+      <input type="text" name="addTodo" id="addTodoTextInput" />
+      <button onclick="handlers.addTodo()">Add</button>
     </div>
-    <script></script>
-</body>
+    <div>
+      <input id="changeTodoPositionInput" type="number" />
+      <input id="changeTodoTextInput" type="text" />
+      <button onclick="handlers.changeTodo()">Change Todo</button>
+    </div>
+    <div>
+      <input id="toggleCompletedPositionInput" type="number" />
+      <button onclick="handlers.toggleCompleted()">Completed</button>
+    </div>
+    <ul></ul>
+    <script src="version4_changed.js"></script>
 </html>
